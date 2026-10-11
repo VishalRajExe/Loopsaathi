@@ -11,6 +11,7 @@ app/ai-service/**/*.pyc
 
 # Local editor/session state.
 .omnirush/
+.opencode/
 .idea/
 .vscode/
 *.log
