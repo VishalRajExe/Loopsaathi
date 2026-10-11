@@ -1,0 +1,20 @@
+# Local runtime output and dependencies (when app is used as its own checkout)
+backend/target/
+backend/application-local.properties
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+ai-service/.venv/
+ai-service/__pycache__/
+ai-service/**/*.pyc
+
+# Local editor and OmniRush session state
+.omnirush/
+.idea/
+.vscode/
+*.log
+
+# Keep local environment files out of commits; checked-in examples remain allowed.
+.env
+!.env.example

@@ -1,0 +1,26 @@
+# Keep local runtime output and credentials out of the repository.
+app/backend/target/
+app/backend/application-local.properties
+app/frontend/node_modules/
+app/frontend/dist/
+app/frontend/.env.local
+app/frontend/.env.*.local
+app/ai-service/.venv/
+app/ai-service/__pycache__/
+app/ai-service/**/*.pyc
+
+# Local editor/session state.
+.omnirush/
+.idea/
+.vscode/
+*.log
+
+# Read-only reference checkouts are never part of the LoopSaathi project.
+githubrepos/
+
+# User-provided working prompt may contain local setup details; keep it private.
+MASTER_PROMPT.md
+
+# Environment files, except checked-in examples.
+.env
+!.env.example
