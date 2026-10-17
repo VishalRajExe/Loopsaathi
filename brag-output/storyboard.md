@@ -2,7 +2,7 @@
 
 **Format:** landscape 1920×1080, 30 fps  
 **Duration:** 28 seconds  
-**Style:** calm, green/neutral product overview with hard cuts and a quiet original ambient bed  
+**Style:** calm, green/neutral product overview with restrained center zooms, a quiet original ambient bed, offline voiceover, and burned-in subtitles  
 **Source:** supplied LoopSaathi screenshots in `video-input/screenshorts/`; the separate MP4 recording was not present in the workspace when this render was made.
 
 | Time | Beat | On-screen message | Visual |
@@ -16,3 +16,14 @@
 | 00:24–00:28 | Close | Every item deserves the right next step. | LoopSaathi brand lockup and repository URL |
 
 This is a screenshot overview, not a fabricated live interaction recording. It does not use the long voiceover file because the requested output is a simple 20–30 second cut.
+
+## Enhanced version
+
+`loopsaathi-hackathon-demo-enhanced.mp4` keeps the same 28-second timing and adds:
+
+- a condensed local SAPI voiceover matched to the seven scenes;
+- subtle 0–4.5% zoom-in/zoom-out movement on each scene plate;
+- high-contrast two-line subtitles above the existing disclosure footer;
+- the original low-volume ambient music underneath the narration.
+
+The long source narration in `video-input/voiceover.txt` was condensed so the voiceover fits the short cut without rushing through every implementation detail.

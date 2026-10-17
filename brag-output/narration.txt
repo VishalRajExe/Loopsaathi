@@ -1,0 +1,13 @@
+LoopSaathi helps every item find a better next step.
+
+Start in the Waste Guide: identify an item, then confirm its waste stream.
+
+Request a pickup with the item, weight, locality, and time slot.
+
+Collectors move each request from requested, to accepted, collected, and delivered.
+
+E-waste follows a separate route, with demo destinations clearly marked.
+
+Impact keeps estimated, collected, and delivered weight distinct, so progress stays honest.
+
+LoopSaathi: less waste lost, more resources directed to the right next step.
